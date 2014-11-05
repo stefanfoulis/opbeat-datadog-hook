@@ -1,14 +1,14 @@
-Opbeat to Slack hook
+Opbeat to Datadog hook
 --------------
 
-Receive notifications from Opbeat in your Slack channels.
+Receive notifications from Opbeat as Datadog events.
 (Uses the new Opbeat API hooks.)
 
 ## Setup
 
 It is really simple to set up with a few clicks. Follow these steps:
 
-1. Create a <a href="https://slack.com/services/new/incoming-webhook" target="_blank">new Slack integration</a> for a channel and copy the unique URL.
+1. Create a <a href="https://app.datadoghq.com/account/settings#api" target="_blank">new Datadog API Key</a> and copy it.
     
     <small>Screenshot:</small>
     <img src="http://cl.ly/image/3O1O3r11261e/slack-hookurl.png" title="Screenshot">
@@ -19,7 +19,7 @@ It is really simple to set up with a few clicks. Follow these steps:
         <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy">
     </a>
 
-1. Paste the unique URL into the `SLACK_URL` field and deploy the app:
+1. Paste the API key into the `DATADOT_API_KEY` field and deploy the app:
     
     <small>Screenshot:</small><br>
     <img src="http://cl.ly/image/0X1o031P1F3c/slack-deployapp.png" title="Screenshot">
