@@ -16,7 +16,7 @@ It is really simple to set up with a few clicks. Follow these steps:
         <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy">
     </a>
 
-1. Paste the API key into the `DATADOT_API_KEY` field and deploy the app.
+1. Paste the API key into the `DATADOG_API_KEY` field and deploy the app.
 
 1. After deployment, click **"View it"** to open the new app and copy the hook url.
 
