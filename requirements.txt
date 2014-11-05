@@ -1,3 +1,6 @@
-bottle
-jinja2
-requests
+Jinja2==2.7.3
+MarkupSafe==0.23
+bottle==0.12.7
+decorator==3.4.0
+dogapi==1.8.5
+simplejson==3.6.5
